@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=6.5">
+    <title>Forms</title>
+    <!-- <link rel="stylesheet" href="/style.css"> -->
+</head>
+<body>
+    <h2 align="center"><font size="7" face="arial"><b>EMPLOYEE FORM</b></font></h2>
+    <form action="database.php">
+        <div align="left">
+            <label for="name"><font size="4" face="Comic Sans MS">Name:</font></label>
+             <input type="text" name="EmpName" id="name" required>
+        </div>
+        <div align="right">
+            <label for="post"><font size="4" face="Comic Sans MS">Post:</font></label> 
+            <input type="text" name="EmpPost" id="post" required>
+        </div>
+        <br>
+        <div > 
+            <label for="email"><font size="4" face="Comic Sans MS">Office email:</font></label>
+            <input type="email" name="EmpEmail" id="email" required>
+        </div>
+        <div align="right">
+            <label for="PhNo"><font size="4" face="Comic Sans MS">Phone Number:</font></label> 
+            <input type="number" name="EmpPhNo" id="PhNo" required>
+        </div>
+        <br>
+        <div > 
+            <label for="EID"><font size="4" face="Comic Sans MS">Employee ID:</font></label>
+            <input type="text" name="EmpID" id="EID" required>
+        </div>
+         <div align="right"> 
+            <label for="DOJ"><font size="4" face="Comic Sans MS">Date Of Joining:</font></label>
+            <input type="date" value="EmpDOJ" id="DOJ" required>
+        </div>
+        <br>
+         <div > 
+            <label for="name"><font size="4" face="Comic Sans MS">Are You Above 18:</font></label>
+            <input type="checkbox" value="EmpAbove18" checked id="ab18">
+        </div>
+        <div align="right" > 
+            <label for="Gender"><font size="5" face="Comic Sans MS">Gender : </font></label>
+            <font size="4" face="comic sans ms"> Male </font>  <input type="radio" value="EmpGender" id="Gender" required> <font size="4" face="comic sans ms">Female</font><input type="radio" value="EmpGender" id="Gender"> <font size="4" face="comic sans ms">Other</font>  <input type="radio" valur="EmpGender" id="Gender">
+        </div>
+        <br>
+        <div > 
+            <label for="abouttext"><font size="4" face="Comic Sans MS">Write About Yourself (Please write in less than 1000 characters):</font></label>
+            <br><textarea name="EmpText" cols="100" rows="10" id="abouttext"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car"><font size="4" face="Comic Sans MS">Allotted Car:</font></label>
+           <select name="EmpCar" id="car">
+                <option value="ind">Indica</option>
+                <option value="swt">Swift</option>
+                <option value="none">None</option>
+            </select>
+        </div>
+        <br>
+        <div align="center"> 
+            <input type="submit" value="Submit Now">
+        </div>
+        <br>
+        <div align="center" > 
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+</html>
