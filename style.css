@@ -1,0 +1,169 @@
+html{
+    scroll-behavior: smooth;
+}
+.body {
+    background-image:url("background.jpg");
+    margin: 45px;
+    padding: 45px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.lets_see {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: rgba(7, 11, 14, 0.966)
+}
+.logo{
+    border-radius: 25px;
+    width: 100px;
+    border: 8px;
+    padding: 10px;
+    margin: 5px;
+    margin-left: 100px;
+    box-shadow:1px 1px 10px aqua;
+}
+nav{
+    margin:0;
+    padding: 12px 0 ;
+    align-items: center;
+    justify-content: space-between; 
+    z-index: auto;
+    background: rgba(7, 11, 14, 0.966);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1020;
+    display: flex;
+    transition: background-color 0.3s ease-in-out;  
+}
+
+.links_logo ul li{
+    display: inline-block;
+    padding: 1px;
+    margin-right: 80px;
+    text-align: center;
+}
+.links_logo ul li a{
+    text-decoration:double;
+    color: aqua;
+    font-weight: bolder;
+    margin-right: 35%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.links_logo a:hover{
+    color:aliceblue;
+    font-size: 23px;
+}
+.details{
+    margin-left: 6%;
+    margin-top: 1%;
+}
+.details h1{
+    font-size: 56px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:white;
+    margin-bottom: 23px;
+    text-shadow: 3px 3px 3px rgb(13, 189, 130);
+}
+.details .invite{
+    font-size:25px;
+    color:blanchedalmond;
+    font-family: cursive;
+    display: inline-flex;
+}
+.details h1 span{
+    color:aqua;
+    text-shadow: 3px 3px 3px rgba(205, 242, 245, 0.966);
+}
+.about{
+    position:auto;
+}
+.details .about{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(244, 250, 250);
+}
+.downloadresume:hover{
+    color:azure;
+}
+.downloadresume{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.details h2{
+    font-family:monospace;
+    color:rgb(55, 202, 207);
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 34px;
+}
+.details a{
+    background:rgb(55, 202, 207);
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+    display: inline-flex;
+    margin: 10px;
+    border-radius: 20px;
+}
+.being_social{
+    margin-left: 65px;
+    padding: 10px;
+    font-size: 39px;
+    color:rgb(29, 181, 201);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position:relative;
+}
+.being_social ul img{
+    height:5%;
+    width:5%;
+    display: inline-block;
+    background:none;
+    border-radius: 100px;
+    padding:2px
+}
+.being_social ul li{
+    list-style: none;
+    justify-content: space-between;
+    display: inline;
+}
+.me img{
+    width:35%;
+    border-radius: 12%;
+    margin-left: auto;
+    position:absolute;
+    left:100%;
+    right:100%;
+    transform:translate(-20%);
+    bottom:-100px;
+}
+footer{
+    text-align: right;
+    color:aquamarine;
+    font-size: 23px;
+    padding: 45px;
+    display: -ms-inline-flexbox;
+    box-sizing: border-box;
+}
+footer img{
+    width:5%;
+    height:5%;
+    text-align: center;
+    border-radius: 12px;
+    position:relative;
+    box-shadow: 2px 2px 5px aqua;
+}
+.comments{
+    margin:43px;
+    color:rgb(187, 233, 233);
+    padding:12px;
+    font-size: 35px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline-block;
+}
+.contactme{
+    overflow:auto;
+}
